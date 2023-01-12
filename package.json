@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "typescript": "^4.9.4"
+  },
+  "name": "day17",
+  "version": "1.0.0",
+  "description": "ts practice",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "day17"
+  },
+  "author": "",
+  "license": "ISC"
+}
