@@ -30,7 +30,7 @@ greet("Niel").then((greeting) => {
 //4) Create a function that accepts a single array where the elements can be strings OR numbers OR booleans.
 // Loop over the array, and if the element is a string, print the string plus the text "is a string".
 //If it's a number, print out the number plus "is a number". If it's a boolean, print out the boolean plus "is a boolean".
-function checkTypes(arr: any[]) {
+function checkTypes(arr: (string | number | boolean)[]) {
   for (let elem of arr) {
     if (typeof elem === "string") {
       console.log(elem + " is a string");
